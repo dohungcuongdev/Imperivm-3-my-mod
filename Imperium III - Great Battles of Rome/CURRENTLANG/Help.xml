@@ -2756,8 +2756,8 @@ Cost: 1000 gold; Time: 40 sec
         <entry vcenter="1" image="UI/Help/ICmdBar/upgrades/Mountain Clan Legacy.bmp">Mountain Clan Legacy (requires Mountain Clan)
 New Mountaineers have the experience of the best Mountaineer you've had
 Cost: 1500 gold; Time 30 sec      </entry>
-        <entry vcenter="1" image="UI/Help/ICmdBar/upgrades/nobility.bmp">Nobility (requires Tournaments) 
-All warriors who reach level 8 become level 12
+        <entry vcenter="1" image="UI/Help/ICmdBar/upgrades/nobility.bmp">Veteran's guild (requires Tournaments) 
+All new warriors have Veteran's guild and become stronger after their first kill
 Cost: 3000 gold; Time 60 sec      </entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/actions/Repair.bmp">
 Repair (visible when damaged)

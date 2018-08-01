@@ -745,19 +745,19 @@
 	<src obj="GArena2"/>
 </cmd>
 
-<cmd name="Nobility" priority="6"
-	button="upgrades/nobility.bmp"
-	key="n"
-	queueicon="gameres/icons/upgrades/nobility.bmp"
+<cmd name="Veteran's guild" priority="6"
+	button="upgrades/veterans guild.bmp"
+	key="v"
+	queueicon="gameres/icons/upgrades/veterans guild.bmp"
 	costgold = "3000"
 	costfood = "0"
-	execdelay = "60000"
+	execdelay = "20000"
 	groupverifier="data/subai/verify_research.vs"
-	rollover="Nobility"
-	description="All warriors who reach level 8 become level 12"
+	rollover="Veteran's guild"
+	description="All new warriors have Veteran's guild and become stronger after their first kill"
 	method="research"
 	researchcommand="yes"
-	param="ReqSet, Tournaments, default, NamePlr, Nobility, default">
+	param="ReqSet, Tournaments, default, NameSet, Veteran's guild, default, SetsSet, items/Veteran Guild, 1">
 	<src obj="IArena"/>
 </cmd>
 
