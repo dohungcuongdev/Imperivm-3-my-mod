@@ -751,7 +751,7 @@
 	queueicon="gameres/icons/upgrades/veterans guild.bmp"
 	costgold = "3000"
 	costfood = "0"
-	execdelay = "20000"
+	execdelay = "60000"
 	groupverifier="data/subai/verify_research.vs"
 	rollover="Veteran's guild"
 	description="All new warriors have Veteran's guild and become stronger after their first kill"
