@@ -610,7 +610,7 @@ In addition to being an excellent fighter a hero has the ability to make the oth
 				</entry>
         <entry image="gameres/infobar/skills/Vigor.bmp" link="/contents/heroskills">Vigor</entry>
         <entry image="gameres/infobar/skills/Frenzy.bmp" link="/contents/heroskills">Frenzy</entry>
-        <entry image="gameres/infobar/skills/Rush.bmp" link="/contents/heroskills">Rush</entry>
+        <entry image="gameres/infobar/skills/Healing.bmp" link="/contents/heroskills">Healing</entry>
         <entry image="gameres/infobar/skills/Egoism.bmp" link="/contents/heroskills">Egoism</entry>
         <entry image="gameres/infobar/skills/Wisdom.bmp" link="/contents/heroskills">Wisdom</entry>
         <entry image="UI/help/health ico.bmp">Health 1000</entry>
@@ -630,7 +630,7 @@ In addition to being an excellent fighter a hero has the ability to make the oth
         <entry image="gameres/infobar/skills/Vigor.bmp" link="/contents/heroskills">Vigor</entry>
         <entry image="gameres/infobar/skills/Recovery.bmp" link="/contents/heroskills">Recovery</entry>
         <entry image="gameres/infobar/skills/Survival.bmp" link="/contents/heroskills">Survival</entry>
-        <entry image="gameres/infobar/skills/QuickMarch.bmp" link="/contents/heroskills">Quick March</entry>
+        <entry image="gameres/infobar/skills/Rush.bmp" link="/contents/heroskills">Rush</entry>
         <entry image="gameres/infobar/skills/Healing.bmp" link="/contents/heroskills">Healing</entry>
         <entry image="UI/help/health ico.bmp">Health 1200</entry>
         <entry image="UI/help/sattack ico.bmp">Damage 40</entry>
@@ -783,7 +783,7 @@ While most of the Carthaginian warriors are merely hired mercenaries there is th
         <entry image="UI/help/sattack ico.bmp">Damage 50</entry>
         <entry image="UI/help/defense ico.bmp">Armor 20</entry>
         <entry image="UI/help/speed ico.bmp">Speed: slow</entry>
-        <entry image="UI/help/gold ico.bmp">Cost 420 gold + 1 peasant</entry>
+        <entry image="UI/help/gold ico.bmp">Cost 400 gold + 1 peasant</entry>
         <entry image="UI/help/train ico.bmp">Hire time 20 sec</entry>
         <entry font="large">See Also</entry>
         <entry vcenter="1" image="UI/icons/CTemple.bmp" link="/contents/buildings/CTemple">Called in Temple</entry>
@@ -1221,14 +1221,13 @@ A few men on horseback are attached to every legion to scout and support the inf
         <entry image="UI/icons/RTribune.bmp">
 These elite fighters are generally high ranking officers with power and influence over the Senate of Rome. They have excellent training and outstanding equipment.
 				</entry>
-        <entry image="gameres/infobar/unit specials/parry.bmp" link="/contents/specials">Parry</entry>
         <entry image="gameres/infobar/unit specials/penetration.bmp" link="/contents/specials">Penetration</entry>
         <entry></entry>
         <entry image="UI/help/health ico.bmp">Health 600</entry>
         <entry image="UI/help/sattack ico.bmp" vspacing="2">Damage 40</entry>
         <entry image="UI/help/defense ico.bmp" vspacing="2">Armor 14</entry>
         <entry image="UI/help/speed ico.bmp" vspacing="2">Speed: slow</entry>
-        <entry image="UI/help/gold ico.bmp" vspacing="2">Cost 300 gold + 1 peasant</entry>
+        <entry image="UI/help/gold ico.bmp" vspacing="2">Cost 280 gold + 1 peasant</entry>
         <entry image="UI/help/train ico.bmp" vspacing="2">Base equip time 20 sec</entry>
         <entry font="large">See Also</entry>
         <entry vcenter="1" image="UI/icons/RBarracks.bmp" link="/contents/buildings/RBarracks">Equipped in Barracks</entry>
@@ -1814,7 +1813,7 @@ Their training and choice of weapons makes them extremely powerful in both defen
         <entry image="UI/help/pattack ico.bmp" vspacing="2">Damage 50</entry>
         <entry image="UI/help/defense ico.bmp" vspacing="2">Armor 0</entry>
         <entry image="UI/help/speed ico.bmp" vspacing="2">Speed : medium</entry>
-        <entry image="UI/help/food ico.bmp" vspacing="2">Cost 500 food + 1 peasant</entry>
+        <entry image="UI/help/food ico.bmp" vspacing="2">Cost 480 food + 1 peasant</entry>
         <entry image="UI/help/train ico.bmp" vspacing="2">Base equip time 20 sec</entry>
         <entry font="large">See Also</entry>
         <entry vcenter="1" image="UI/icons/TBarracks.bmp" link="/contents/buildings/TBarracks">is recruited in the quarter</entry>
@@ -2223,7 +2222,7 @@ Cost: 500 gold; Time: 60 sec
 The barracks are a training ground where a villager is made into a warrior. The building can exist only within the stronghold. In order for barracks to produce the specified type of warrior his equipment must already be created in the town blacksmith.</entry>
         <entry font="large">Commands</entry>
         <entry vcenter="1" image="UI/Help/CCmdBar/upgrades/barrack1.bmp">
-Upgrade efficiency I, II, III: reduce hire time
+Upgrade efficiency I, II, III: reduce hire time by 50%, 75%, 87%
 Cost: 500 (500, 500) gold; Time: 60 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/CCmdBar/actions/hire CLibyanFootman.bmp" link="/contents/units/CLibyanFootman">
@@ -2256,23 +2255,23 @@ Cost: 500 gold; Time: 60 sec
 The barracks are a training ground where a villager is made into a warrior. The building can exist only within the stronghold. In order for barracks to produce the specified type of warrior his equipment must already be created in the town blacksmith.</entry>
         <entry font="large">Commands</entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/upgrades/barrack1.bmp">
-Upgrade efficiency I, II, III: reduce hire time
+Upgrade efficiency I, II, III: reduce hire time by 50%, 75%, 87%
 Cost: 500 (500, 500) gold; Time: 60 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/actions/train IMilitiaman.bmp" link="/contents/units/IMilitiaman">
 Equip Militiaman
-Cost: 50 gold; Time: 1 - 6 sec
+Cost: 50 gold; 1 peasant; Time: 1 - 6 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/actions/train IArcher.bmp" link="/contents/units/IArcher">Equip Archer
-Cost: 60 gold; Time 2 - 10 sec      </entry>
+Cost: 60 gold; 1 peasant; Time 2 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/actions/train ISlinger.bmp" link="/contents/units/ISlinger">Equip Slinger 
-Cost: 200 gold; Time 3 - 16 sec      </entry>
+Cost: 200 gold; 1 peasant; Time 3 - 16 sec      </entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/actions/train IDefender.bmp" link="/contents/units/IDefender">Equip Defender 
-Cost: 140 gold; Time 2 - 16 sec                                  </entry>
+Cost: 140 gold; 1 peasant; Time 2 - 16 sec                                  </entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/actions/train ICavalry.bmp" link="/contents/units/ICavalry">Equip Cavalry 
-Cost: 140 gold; Time 2 - 20 sec                                  </entry>
+Cost: 140 gold; 1 peasant; Time 2 - 20 sec                                  </entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/actions/train IEliteGuard.bmp" link="/contents/units/IEliteGuard">Equip Elite Guard 
-Cost: 300 gold; Time 3 - 20 sec      </entry>
+Cost: 300 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/ICmdBar/actions/Repair.bmp">Repair (visible when damaged)
 Cost: 500 gold; Time: 60 sec
 				</entry>
@@ -2283,21 +2282,21 @@ Cost: 500 gold; Time: 60 sec
 The barracks are a training ground where a villager is made into a warrior. The building can exist only within the stronghold. In order for barracks to produce the specified type of warrior his equipment must already be created in the town blacksmith.</entry>
         <entry font="large">Commands</entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/upgrades/barrack1.bmp">
-Upgrade efficiency I, II, III: reduce hire time
+Upgrade efficiency I, II, III: reduce hire time by 50%, 75%, 87%
 Cost: 500 (500, 500) gold; Time: 60 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/actions/train gswordsman.bmp" link="/contents/units/GSwordsman">Equip Swordsman
-Cost: 60 gold; Time 1 - 6 sec      </entry>
+Cost: 60 gold; 1 peasant; Time 1 - 6 sec      </entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/actions/train garcher.bmp" link="/contents/units/GArcher">Equip Archer
-Cost: 50 gold; Time 2 - 10 sec      </entry>
+Cost: 50 gold; 1 peasant; Time 2 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/actions/train gaxeman.bmp" link="/contents/units/GAxeman">Equip Axeman
-Cost: 150 gold; Time 2 - 16 sec  </entry>
+Cost: 150 gold; 1 peasant; Time 2 - 16 sec  </entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/actions/train gspearman.bmp" link="/contents/units/GSpearman">Equip Spearman
-Cost: 120 gold; Time 2 - 16 sec  </entry>
+Cost: 120 gold; 1 peasant; Time 2 - 16 sec  </entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/actions/train ghorseman.bmp" link="/contents/units/GHorseman">Equip Horseman
-Cost: 160 gold; Time 3 - 20 sec      </entry>
+Cost: 160 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/actions/train GWomanWarrior.bmp" link="/contents/units/GWWarrior">Equip Woman Warrior
-Cost: 220 gold; Time 3 - 20 sec      </entry>
+Cost: 220 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/actions/Repair.bmp">Repair (visible when damaged)
 Cost: 500 gold; Time: 60 sec
 				</entry>
@@ -2308,21 +2307,21 @@ Cost: 500 gold; Time: 60 sec
 The barracks are a training ground where a villager is made into a warrior. The building can exist only within the stronghold. In order for barracks to produce the specified type of warrior his equipment must already be created in the town blacksmith.</entry>
         <entry font="large">Commands</entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/upgrades/barrack1.bmp">
-Upgrade efficiency I, II, III: reduce hire time
+Upgrade efficiency I, II, III: reduce hire time by 50%, 75%, 87%
 Cost: 500 (500, 500) gold; Time: 60 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/train rhastatus.bmp" link="/contents/units/RHastatus">Equip Hastatus
-Cost: 100 gold; Time 1 - 6 sec      </entry>
+Cost: 100 gold; 1 peasant; Time 1 - 6 sec      </entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/train rarcher.bmp" link="/contents/units/RArcher">Equip Archer
-Cost: 80 gold; Time 2 - 10 sec      </entry>
+Cost: 80 gold; 1 peasant; Time 2 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/train rgladiator.bmp" link="/contents/units/RGladiator">Equip Gladiator
-Cost: 200 gold; Time 2 - 10 sec      </entry>
+Cost: 200 gold; 1 peasant; Time 2 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/train rprinciple.bmp" link="/contents/units/RPrinciple">Equip Principle
-Cost: 200 gold; Time 3 - 20 sec      </entry>
+Cost: 200 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/train rscout.bmp" link="/contents/units/RScout">Equip Scout
-Cost: 120 gold; Time 2 - 10 sec      </entry>
+Cost: 120 gold; 1 peasant; Time 2 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/train rtribune.bmp" link="/contents/units/RTribune">Equip Tribune
-Cost: 300 gold; Time 3 - 20 sec      </entry>
+Cost: 280 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/hire rchariot.bmp" link="/contents/units/RChariot">Equip Chariot
 Cost: 400 gold; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/Repair.bmp">Repair (visible when damaged)
@@ -2335,21 +2334,21 @@ Cost: 500 gold; Time: 60 sec
 The barracks are a training ground where a villager is made into a warrior. The building can exist only within the stronghold. In order for barracks to produce the specified type of warrior his equipment must already be created in the town blacksmith.</entry>
         <entry font="large">Commands</entry>
         <entry vcenter="1" image="UI/Help/MCmdBar/upgrades/barrack1.bmp">
-Upgrade efficiency I, II, III: reduce hire time
+Upgrade efficiency I, II, III: reduce hire time by 50%, 75%, 87%
 Cost: 500 (500, 500) gold; Time: 60 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/MCmdBar/actions/train rhastatus.bmp" link="/contents/units/MHastatus">Equip Hastatus
-Cost: 100 gold; Time 1 - 6 sec      </entry>
+Cost: 100 gold; 1 peasant; Time 1 - 6 sec      </entry>
         <entry vcenter="1" image="UI/Help/MCmdBar/actions/train rarcher.bmp" link="/contents/units/MArcher">Equip Archer
-Cost: 80 gold; Time 2 - 10 sec      </entry>
+Cost: 80 gold; 1 peasant; Time 2 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/MCmdBar/actions/train rvelit.bmp" link="/contents/units/MVelit">Equip Velit
-Cost: 120 gold; Time 2 - 14 sec      </entry>
+Cost: 120 gold; 1 peasant; Time 2 - 14 sec      </entry>
         <entry vcenter="1" image="UI/Help/MCmdBar/actions/train rprinciple.bmp" link="/contents/units/MPrinciple">Equip Principle
-Cost: 200 gold; Time 2 - 16 sec      </entry>
+Cost: 200 gold; 1 peasant; Time 2 - 16 sec      </entry>
         <entry vcenter="1" image="UI/Help/MCmdBar/actions/train rscout.bmp" link="/contents/units/MScout">Equip Scout
-Cost: 120 gold; Time 3 - 20 sec      </entry>
+Cost: 120 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/MCmdBar/actions/train rpraetorian.bmp" link="/contents/units/MPraetorian">Equip Praetorian
-Cost: 400 gold; Time 3 - 20 sec      </entry>
+Cost: 400 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/RCmdBar/actions/Repair.bmp">Repair (visible when damaged)
 Cost: 500 gold; Time: 60 sec
 				</entry>
@@ -2360,21 +2359,21 @@ Cost: 500 gold; Time: 60 sec
 The barracks are a training ground where a villager is made into a warrior. The building can exist only within the stronghold. In order for barracks to produce the specified type of warrior his equipment must already be created in the town blacksmith.</entry>
         <entry font="large">Commands</entry>
         <entry vcenter="1" image="UI/Help/BCmdBar/upgrades/barrack1.bmp">
-Upgrade efficiency I, II, III: reduce hire time
+Upgrade efficiency I, II, III: reduce hire time by 50%, 75%, 87%
 Cost: 500 (500, 500) gold; Time: 60 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/BCmdBar/actions/train bswordsman.bmp" link="/contents/units/BSwordsman">Equip Swordsman
-Cost: 50 gold; Time 2 - 8 sec      </entry>
+Cost: 50 gold; 1 peasant; Time 2 - 8 sec      </entry>
         <entry vcenter="1" image="UI/Help/BCmdBar/actions/train bbowman.bmp" link="/contents/units/BBowman">Equip Bowman
-Cost: 60 gold; Time 1 - 4 sec      </entry>
+Cost: 60 gold; 1 peasant; Time 1 - 4 sec      </entry>
         <entry vcenter="1" image="UI/Help/BCmdBar/actions/train BBronzeSpearman.bmp" link="/contents/units/BBronzeSpearman">Equip Bronze Spearman
-Cost: 160 gold; Time 2 - 10 sec      </entry>
+Cost: 160 gold; 1 peasant; Time 2 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/BCmdBar/actions/train BShieldBearer.bmp" link="/contents/units/BShieldBearer">Equip Shield Bearer
-Cost: 140 gold; Time 2 - 10 sec      </entry>
+Cost: 140 gold; 1 peasant; Time 2 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/BCmdBar/actions/train BJavelineer.bmp" link="/contents/units/BJavelineer">Equip Javelineer
-Cost: 140 gold; Time 3 - 12 sec      </entry>
+Cost: 140 gold; 1 peasant; Time 3 - 12 sec      </entry>
         <entry vcenter="1" image="UI/Help/BCmdBar/actions/train BHighlander.bmp" link="/contents/units/BHighlander">Equip Highlander
-Cost: 400 gold; Time 3 - 20 sec      </entry>
+Cost: 400 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/BCmdBar/actions/Repair.bmp">Repair (visible when damaged)
 Cost: 500 gold; Time: 60 sec
 				</entry>
@@ -2385,21 +2384,21 @@ Cost: 500 gold; Time: 60 sec
 The barracks are a training ground where a villager is made into a warrior. The building can exist only within the stronghold. In order for barracks to produce the specified type of warrior his equipment must already be created in the town blacksmith.</entry>
         <entry font="large">Commands</entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/upgrades/barrack1.bmp">
-Upgrade efficiency I, II, III: reduce hire time
+Upgrade efficiency I, II, III: reduce hire time by 50%, 75%, 87%
 Cost: 500 (500, 500) gold; Time: 60 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/train eswordsman.bmp" link="/contents/units/ESwordsman">Equip Swordsman 
-Cost: 80 gold; Time 2 - 8 sec      </entry>
+Cost: 80 gold; 1 peasant; Time 2 - 8 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/train earcher.bmp" link="/contents/units/EArcher">Equip Archer 
-Cost: 60 gold; Time 2 - 8 sec      </entry>
+Cost: 60 gold; 1 peasant; Time 2 - 8 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/train Eaxetrower.bmp" link="/contents/units/EAxeThrower">Equip Axe Thrower 
-Cost: 180 gold; Time 3 - 12 sec      </entry>
+Cost: 180 gold; 1 peasant; Time 3 - 12 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/train EAnubisWarrior.bmp" link="/contents/units/EAnubisWarrior">Equip Anubis Warrior
-Cost: 260 gold; Time 3 - 16 sec      </entry>
+Cost: 260 gold; 1 peasant; Time 3 - 16 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/train EHorusWarrior.bmp" link="/contents/units/EHorusWarrior">Equip Horus Warrior
-Cost: 260 gold; Time 3 - 16 sec      </entry>
+Cost: 260 gold; 1 peasant; Time 3 - 16 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/train EGuardian.bmp" link="/contents/units/EGuardian">Equip Guardian
-Cost: 260 gold; Time 3 - 20 sec      </entry>
+Cost: 260 gold; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/Repair.bmp">Repair (visible when damaged)
 Cost: 500 gold; Time: 60 sec
 				</entry>
@@ -2410,21 +2409,21 @@ Cost: 500 gold; Time: 60 sec
 The barracks are a training ground where a villager is made into a warrior. The building can exist only within the stronghold. In order for barracks to produce the specified type of warrior his equipment must already be created in the town blacksmith.</entry>
         <entry font="large">Commands</entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/upgrades/barrack1.bmp">
-Upgrade efficiency I, II, III: reduce hire time
+Upgrade efficiency I, II, III: reduce hire time by 50%, 75%, 87%
 Cost: 500 (500, 500) gold; Time: 60 sec
 				</entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/actions/train tswordsman.bmp" link="/contents/units/TSwordsman">Equip Swordsman
-Cost: 120 food; Time 3 - 10 sec      </entry>
+Cost: 120 food; 1 peasant; Time 3 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/actions/train tarcher.bmp" link="/contents/units/TArcher">Equip Archer
-Cost: 200 food; Time 3 - 10 sec      </entry>
+Cost: 200 food; 1 peasant; Time 3 - 10 sec      </entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/actions/train taxeman.bmp" link="/contents/units/TAxeman">Equip Axeman
-Cost: 300 food; Time 3 - 14 sec      </entry>
+Cost: 300 food; 1 peasant; Time 3 - 14 sec      </entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/actions/train tHuntress.bmp" link="/contents/units/THuntress">Equip Huntress
-Cost: 400 food; Time 3 - 14 sec      </entry>
+Cost: 400 food; 1 peasant; Time 3 - 14 sec      </entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/actions/train TTeutonRider.bmp" link="/contents/units/TTeutonRider">Equip Teuton Rider
-Cost: 400 food; Time 3 - 20 sec      </entry>
+Cost: 400 food; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/actions/train TMaceman.bmp" link="/contents/units/TMaceman">Equip Maceman
-Cost: 500 food; Time 3 - 20 sec      </entry>
+Cost: 480 food; 1 peasant; Time 3 - 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/actions/Repair.bmp">Repair (visible when damaged)
 Cost: 500 gold; Time: 60 sec
 				</entry>
@@ -2686,7 +2685,7 @@ Increases the number of Teuton Riders you can have by 10
 Cost: 800 gold; Time 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/upgrades/Incr Mace Production.bmp" link="/contents/units/TMaceman">Increase Mace production
 Increases the number of Macemen you can have by 10
-Cost: 800 gold; Time 20 sec      </entry>
+Cost: 1000 gold; Time 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/TCmdBar/research/Stronghold Defense.bmp">Strengthen Stronghold Defenses I and II
 Makes the defenders at the stronghold walls level 12 and level 24
 Cost: 1000 (2000) gold; Time 30 sec      </entry>
@@ -2708,11 +2707,11 @@ Cost: 800 gold; Time 20 sec      </entry>
 Allows the training of War Elephants  
 Cost: 2000 gold; Time 25 sec                                  </entry>
         <entry vcenter="1" image="UI/Help/CCmdBar/research/shared strength.bmp">Shared Strength (requires People's Assembly)
-If you have over 12 warriors of a type the new ones you hire are level 6
-Cost: 2000 gold; Time 30 sec      </entry>
+All new warriors are level 6
+Cost: 4000 gold; Time 60 sec      </entry>
         <entry vcenter="1" image="UI/Help/CCmdBar/research/shared triumph.bmp">Shared Triumph (requires Shared Strength)
-If you have over 24 warriors of a type the new ones you hire are level 12
-Cost: 2000 gold; Time 30 sec      </entry>
+All new warriors are level 12
+Cost: 6000 gold; Time 80 sec      </entry>
         <entry vcenter="1" image="UI/Help/CCmdBar/actions/Hire CWarElephant.bmp" link="/contents/units/CWarElephant">Train War Elephant (requires People's Assembly)
 Trains a War Elephant
 Cost: 1000 food; Time 20 sec      </entry>
@@ -2774,7 +2773,7 @@ In every stronghold throughout the land there are arenas where fighters show the
         <entry vcenter="1" image="UI/Help/GCmdBar/actions/hire heroG.bmp" link="/contents/units/GHero">Hire hero
 Cost: 1000 gold; Time 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/upgrades/Fights.bmp">Fights
-New Swordsmen and Archers are level 4
+Allows Trident Warrior to be hired
 Cost: 2000 gold; Time 30 sec      </entry>
         <entry vcenter="1" image="UI/Help/GCmdBar/research/training.bmp">Training (requires Fights)
 Allows warriors to train to level 4
@@ -3219,7 +3218,7 @@ Cost: 2000 gold; Time 20 sec      </entry>
 Allows Nobles to be equipped in the Temple
 Cost: 4000 gold; Time 30 sec      </entry>
         <entry vcenter="1" image="UI/Help/CCmdBar/actions/train CNoble.bmp" link="/contents/units/CNoble">Equip Noble (requires Sacred Legion) 
-Cost: 420 gold; 10 peasant; Base hire time 20 sec      </entry>
+Cost: 400 gold; 1 peasant; Base hire time 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/CCmdBar/research/ferocity.bmp">  Ferocity (requires Dark Rituals) 
 Allows a warrior to restores 3 stamina each time he kills an enemy
 Cost: 3000 gold; Time 30 sec      </entry>
@@ -3377,8 +3376,8 @@ Cost: 2000 gold; Time 20 sec      </entry>
 Allows priests to sacrifice themselves to create a cloud of plague which damages all warriors it covers
 Cost: 2000 gold; Time 20 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/research/Mumification.bmp">Mummification (requires Cult of Osiris)
-New heroes are hired with 2/3 the level of the best hero you've had
-Cost: 3000 gold; Time 30 sec      </entry>
+All new heroes are level 15
+Cost: 6000 gold; Time 60 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/chariot of osiris.bmp" link="/contents/units/EChariot">Equip Chariot of Osiris (requires Cult of Osiris)
 Cost: 400 gold; Time 30 sec      </entry>
         <entry vcenter="1" image="UI/Help/ECmdBar/actions/Repair.bmp">

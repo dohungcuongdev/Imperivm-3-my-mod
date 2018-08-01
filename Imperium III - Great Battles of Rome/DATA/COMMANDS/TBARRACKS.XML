@@ -102,7 +102,7 @@
 	traincommand="yes"
 	key="m"
 	help="/contents/units/TMaceman"
-	costfood = "500"
+	costfood = "480"
 	costpop = "1"
 	execdelay = "20000"
 	rollover="Equip Maceman"
